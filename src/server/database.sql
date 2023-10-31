@@ -9,7 +9,7 @@ CREATE TABLE users (
 CREATE TABLE todo(
     todo_id SERIAL PRIMARY KEY,
     user_id INT,
-    title VARCHAR(50),
-    description VARCHAR(255),
+    title VARCHAR(50) NOT NULL,
+    description VARCHAR(255) NOT NULL,
     completed BOOLEAN DEFAULT FALSE
 );
