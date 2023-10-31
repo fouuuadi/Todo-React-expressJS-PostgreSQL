@@ -13,3 +13,9 @@ CREATE TABLE todo(
     description VARCHAR(255) NOT NULL,
     completed BOOLEAN DEFAULT FALSE
 );
+
+CREATE TABLE todostest(
+    title VARCHAR(50) NOT NULL,
+    description VARCHAR(255) NOT NULL,
+);
+
